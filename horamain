@@ -1,0 +1,14 @@
+package Classe_Composta;
+
+public class Main {
+	    public static void main(String[] args) {
+	    	
+	    DataHora ref = new DataHora(new Data(10, 04,2024), new Horario(18,04));
+	    
+	    ref.setData(new Data(10,04,2024));
+	    
+	    System.out.println(ref.toString());
+	   
+	    }
+	}
+

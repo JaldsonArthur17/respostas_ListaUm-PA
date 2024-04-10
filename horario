@@ -1,0 +1,28 @@
+package Classe_Composta;
+
+public class Horario {
+	private int hora;
+	private int minuto;
+	
+	public Horario(int h, int m) {
+		hora = h;
+		minuto = m;
+	}
+	public int getHora() {
+		return hora;
+	}
+	public void setHora(String hora) {
+		hora = hora;
+	}
+	public int getMinuto() {
+		return minuto;
+	}
+	public void setMinuto(String minuto) {
+		minuto = minuto;
+	}
+	public String horario() {
+		return "o horário foi definido como: " + hora + "e: " + minuto;
+	}
+	
+}
+
